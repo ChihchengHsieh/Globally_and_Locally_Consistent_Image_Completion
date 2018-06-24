@@ -17,7 +17,8 @@ http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/
 
 # What's different?
 
-- Use High Level API (tf.layers/tf.contrib)
+- Move the model to Pytorch
+- Using High Level API (tf.layers/tf.contrib)
 - add batch normalisation after dilated CNN
 ![](https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/BN.png)
 
@@ -48,7 +49,14 @@ http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/
 
 <- Yeah .. I mean 5 min on CPU...
 
-The generator has started to do something we want. 
+The generator has started to do something we want. The reason may be the reconstructed loss, which enables us to train it as a decoder.
 
 ![](https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/20%20epoch%20result.png)
 
+And, the paper they trained
+
+![](https://github.com/mike820808/Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/Training_time.png)
+
+# Still wondering
+
+Which way of initialization will be better for this model?
