@@ -44,7 +44,9 @@ http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/
 ![](https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/Sructure.png)
 
 
-# The result after only 20 steps (5 minutes) <- I mean 5 min on CPU...
+# The result after only 20 steps (5 minutes) 
+
+<- Yeah .. I mean 5 min on CPU...
 
 The generator has started to do something we want. 
 
