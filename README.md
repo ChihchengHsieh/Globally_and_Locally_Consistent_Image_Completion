@@ -1,5 +1,5 @@
-# tf_Globally_and_Locally_Consistent_Image_Completion
-implementation of Globally_and_Locally_Consistent_Image_Completion on Tensorflow
+# Globally_and_Locally_Consistent_Image_Completion
+implementation of Globally_and_Locally_Consistent_Image_Completion on both Pytorch and Tensorflow
 
 # Reference
 
