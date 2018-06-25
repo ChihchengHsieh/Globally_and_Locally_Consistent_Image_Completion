@@ -17,27 +17,27 @@ http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/
 
 # What's different?
 
-- Move the model to Pytorch
-- Using High Level API (tf.layers/tf.contrib)
-- add batch normalisation after dilated CNN
-![](https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/BN.png)
+1. Move the model to Pytorch
+2. Using High Level API (tf.layers/tf.contrib)
+3. add batch normalisation after dilated CNN
 
-- This model run on 64*64 images
-- The structure of model has been changed a liitle bit since the smaller size image
-- Add the sigmoid function in the last layer of Completion
+<img src="https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/BN.png" alt="img" width="500" height="150">
+
+4. This model run on 64*64 images
+5. The structure of model has been changed a liitle bit since the smaller size image
+6. Add the sigmoid function in the last layer of Completion
 
 
 # Paper Structure
 
 ![](https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/PaperStructure.png)
+<img src="https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/PaperC.png" alt="img" width="325" height="300">
+<img src="https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/PaperD.png" alt="img" width="350" height="300">
 
-![](https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/PaperC.png)
-
-![](https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/PaperD.png)
 
 
 # Paper optimization
-![](https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/Optim.png)
+<img src="https://github.com/mike820808/tf_Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/Optim.png" alt="img" width="350" height="300">
 
 
 # The structure for this model
@@ -55,7 +55,8 @@ The generator has started to do something we want. The reason may be the reconst
 
 And, the paper they trained
 
-![](https://github.com/mike820808/Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/Training_time.png)
+<img src="https://github.com/mike820808/Globally_and_Locally_Consistent_Image_Completion/blob/master/Photo/Training_time.png" alt="img" width="500" height="60">
+
 
 # Still wondering
 
